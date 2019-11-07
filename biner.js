@@ -18,9 +18,4 @@ var biner=(a)=>{
     }    
     return hasil
 }
-console.log(biner(10))
-console.log(biner(2))
-console.log(biner(3))
-console.log(biner(4))
-console.log(biner(5))
-console.log(biner(6))
+console.log(biner(103))
