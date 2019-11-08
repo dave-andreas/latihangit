@@ -15,4 +15,7 @@ var hexa=(a)=>{
     }
     return hasil
 }
-console.log(hexa(7562))
+console.log(hexa(7678))
+console.log(hexa(666))
+console.log(hexa(78))
+console.log(hexa(13))
