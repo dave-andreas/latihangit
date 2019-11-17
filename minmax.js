@@ -3,9 +3,8 @@
 // console.log(a)
 
 minmax=(x)=>{
-    x=x.sort(function(a,b){
-        return a-b
-    })
+    x=x.sort((a,b)=>a-b) //callback, parameter isi function, disini dalam bentuk es6
+    //function diatas sudah rumus pasti untuk mensortir decimal
     min=x[0]
     max=x[x.length-1]
     console.log(x)
